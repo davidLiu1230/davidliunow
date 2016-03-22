@@ -1,4 +1,4 @@
-This is a quick guide to how this personal blog is built&deployed.
+Setup:
 
 static website:
  - gem install jekyll
@@ -21,3 +21,5 @@ Voila!
 Notes:
  - Might need to install Java to run s3_website
  
+Use:
+ - To start a new post, type "sh new <POST_NAME>"

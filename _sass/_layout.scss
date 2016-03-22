@@ -1,4 +1,23 @@
 /**
+ * Fonts
+ */
+.site-header,
+.site-footer {
+    font-family: monospace;
+}
+
+.post-title,
+.post-content,
+.post-link-wrapper,
+.post-meta {
+    font-family: "Josefin Sans";
+}
+
+.page-heading {
+    font-family: "Lobster Two";
+}
+
+/**
  * Site header
  */
 .site-header {
@@ -11,16 +30,17 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 36px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: cadetblue;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: cadetblue;
     }
 }
 
@@ -172,7 +192,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .post-list {
@@ -192,6 +212,11 @@
 .post-link {
     display: block;
     font-size: 24px;
+    color: $grey-color-dark
+}
+
+.post-link-wrapper {
+    margin-bottom: 0px;    
 }
 
 .post-excerpt {

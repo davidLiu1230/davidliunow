@@ -1,0 +1,9 @@
+for word in $1
+do
+  POST_NAME=$POST_NAME-$word
+done
+PREFIX=$(date +"%Y-%m-%d")
+DT=$(date +"%Y-%m-%d %H:%M:%S")
+FN=./_posts/$PREFIX$POST_NAME.markdown
+touch $FN
+printf "%s\nlayout: post\ntitle:\ndate:   %s\ncategories:\n%s" "---" "$DT" "---" >> $FN
