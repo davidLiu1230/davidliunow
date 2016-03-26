@@ -1,7 +1,9 @@
 ---
 layout: page
-title: About
+title: about
 permalink: /about/
 ---
 
-This is the about page
+Built with Jekyll and S3
+
+[Github Link](https://github.com/davidLiu1230/davidliunow)
