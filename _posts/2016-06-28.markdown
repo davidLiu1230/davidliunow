@@ -1,0 +1,82 @@
+---
+layout: post
+title: Random thoughts
+date:   2016-06-28 17:08:51
+categories: hidden
+published: false
+---
+
+Recently I've read several articles on the topic of "Yulin dog meat festival". People post hundreds of comments under each article with arguments coming from dozens of perspectives. To name a few:
+
+1.Bring other animals onto the table(pig/chicken)?
+2.Question U.S NGOs on being the 'worldwide police'?
+3.There are more dogs to rescue in the States than China
+4.Not/Respect other cultures
+5.Which one is worse? U.S or China?
+6.Plant diets/Go vegan/Soylent/Alien food commercials
+7.(Links to cute animal videos to raise the feelings of empathy)
+8.Visciously attacking other commenters(and their parents)
+9.Racist comments toward other countries
+10.Rational thinking and debate with other commenters
+
+If I were to respond I would go with:
+1. One problem at a time
+2. Don't derail from the topic
+3. One problem at a time
+4. Don't over-generalize
+5. Don't over-generalize, do these folks also over-generalize Muslims?
+6. Thank you for bringing in alternatives
+7. Thank you for utilizing the emotion negotiation tactic
+8. Moderators will probably delete the downvoted comments, if there is a moderator, that is, and if there is a downvote button.
+9. See my response to #8
+10.Read and learn from other people's perspectives
+
+
+But seriously, people can do whatever they want. But #4 kept me thinking, can we bring OOP(Object-oriented-programming) into this issue?
+
+Let's take a look at the following scenarios:
+
+Scenario A: Female genital mutilation in Africa
+
+class Earth():
+  // Every single person that our mother earth owns
+  var people = Collection(prototype:Person)
+
+class Location():
+  var longitude, latitude
+
+class Region():
+  var location = Object(prototype:Location))
+
+class Culture():
+  var origin = Object(prototype:Region)
+
+class Action():
+  ""e.g, Eat, sleep, love""
+  var desc = String('Description on what the  action is')
+
+class Person():
+  var culture = Object(prototype:Culture)
+  var race = Object(prototype:Race)
+  var meta = Array(age/height/hair color/etc.)
+  
+
+
+Now let's breakdown the scenario into programmable variables:
+
+Who: africanWomen = Collection(prototype:Person)
+What: GenitalMutilation(prototype:Action))
+Where: Africa(prototype:Region)
+
+Now let's break argument #4 down:
+
+Who: internetHabitants = Collection(prototype:Person)
+What: disagree(prototype:Action)
+
+
+
+
+Scenario B: 
+
+
+And finally, Scenario C: Dog eating in Yulin, China

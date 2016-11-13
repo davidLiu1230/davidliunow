@@ -1,0 +1,64 @@
+<div class="noiseComplaint">
+  <div class="header">
+    <h1>Write a noise review</h1>
+    <h5>**This app is completely anonymous</h5>
+  </div>
+  <div class="newComplaint">
+    <form action="">
+      <input type="text" name="firstname" value="Barney">
+      <input type="text" name="lastname" value="Stinson">
+      <input type="submit" value="Submit with recaptcha">
+      <div class="g-recaptcha" data-sitekey="6Lc0YwsUAAAAAEW30Hcoz5DYso4tLfrCnx45IF1p"></div>
+    </form>
+
+    <div class="address">
+      <label>
+        <span>Street Address: </span><input class="location" type="text" placeholder="City View Apartment"/>
+      </label>
+      <div class="map">
+        <iframe
+          width="600"
+          height="450"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCgvRHrWXejtYZFdmah_siycsOPDpDt9wo&q=Space+Needle,Seattle+WA" allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    <div class="noiseLevel">
+      <label>
+        <span>Noise Level: </span><input type="range" class="noiseRange" step="10" value="90">
+      </label>
+    </div>
+    <div class="noiseOrigin">
+      <span>Origin of the Noise: </span>
+      <label>
+        <input type="radio" name="noiseOrigin" value="neighbors" /><span>neighbors</span>
+      </label>
+      <label>
+        <input type="radio" name="noiseOrigin" value="traffic" /><span>traffic</span>
+      </label>
+      <label>
+        <input type="radio" name="noiseOrigin" value="other" /><span>other</span>
+      </label>
+    </div>
+    <div>
+      <label>
+        <span>More Words: </span><textarea class="more" placeholder="More words"></textarea>
+      </label>
+    </div>
+    <div>
+      <label>
+        <button onclick="fileComplaint()" class="fileComplaint">File a Complaint!</button>
+      </label>
+    </div>
+    <div class="status">
+      <h2 id="statusText"></h2>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function fileComplaint() {
+      document.getElementById("statusText").innerHTML = "Successfully Filed!";
+  }
+</script>
