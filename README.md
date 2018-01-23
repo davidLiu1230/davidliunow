@@ -1,6 +1,9 @@
-bootstrap:
- - make bootstrap
+Setup:
+
+static website:
+ - gem install jekyll
  - jekyll new my-blog-name
+ - gem install s3_website
  - s3_website cfg create
  - update s3_website.yml
 
@@ -10,7 +13,13 @@ s3:
  - turn on static web hosting on the bucket
 
 deploy:
- - make upload
+ - jekyll build
+ - s3_website push
 
-write a post:
- - To start a new post, type "make new <POST_NAME>"
+Voila!
+
+Notes:
+ - Might need to install Java to run s3_website
+ 
+Use:
+ - To start a new post, type "sh new <POST_NAME>"
